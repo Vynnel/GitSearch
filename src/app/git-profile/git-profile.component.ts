@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { GhProfileService } from '../gh-profile.service';
+import { GhProfileService } from '../gitsearch/search.service';
 import { HttpClient } from '@angular/common/http';
-import { Profile } from '../git-profile';
+import { Profile } from '../profile';
 import { Repo } from '../repo';
 
 @Component({
